@@ -1,0 +1,53 @@
+/* Styles for the OTP login form */
+.otp-login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.otp-login-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.otp-login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.otp-login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.otp-login-container button:hover {
+    background-color: #005f8d;
+}
+
+.otp-login-container .error {
+    color: #d9534f;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.otp-login-container .success {
+    color: #5cb85c;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
